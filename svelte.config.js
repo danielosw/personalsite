@@ -1,4 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
+//comment out the top line and uncomment out below when building for production
+//import adapter from "svelte-adapter-bun";
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
