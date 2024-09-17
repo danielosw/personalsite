@@ -37,8 +37,5 @@
 		"test:integration": "playwright test",
 		"test:unit": "vitest"
 	},
-	"type": "module",
-	"dependencies": {
-		"svelte-adapter-azure-swa": "^0.20.1"
-	}
+	"type": "module"
 }
