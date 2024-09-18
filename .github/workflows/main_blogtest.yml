@@ -23,6 +23,8 @@ jobs:
 
       - name: bun install, build, and test
         run: |
+          rm -rf node_modules
+          rm package-lock.json
           bun install
           bun run build
 
